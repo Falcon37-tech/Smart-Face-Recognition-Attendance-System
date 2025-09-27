@@ -84,7 +84,7 @@ face-recognition-attendance/
 
 │
 
-├── main.py                       
+├── [main.py](main.py)                       
 ├── train.py                      
 ├── face_utils.py                 
 ├── attendance.py                 
