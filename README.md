@@ -10,12 +10,12 @@ A **Python-based Face Recognition Attendance System** using **OpenCV** and **fac
 
 ## ✨ Features
 
-- ✅ Detect and recognize faces in images and webcam  
-- ✅ Train the model with multiple images for accurate recognition  
-- ✅ Real-time attendance marking  
-- ✅ Attendance saved in `Attendance.csv` with timestamp  
-- ✅ Highlights detected faces with rectangles and names  
-- ✅ Scalable: Add more images to recognize more people  
+- ✔ Detect and recognize faces in images and webcam  
+- ✔ Train the model with multiple images for accurate recognition  
+- ✔ Real-time attendance marking  
+- ✔ Attendance saved in `Attendance.csv` with timestamp  
+- ✔ Highlights detected faces with rectangles and names  
+- ✔ Scalable: Add more images to recognize more people  
 
 ---
 
