@@ -19,17 +19,53 @@ A **Python-based Face Recognition Attendance System** using **OpenCV** and **fac
 
 1. **Clone the repository:**
 
-git clone https://github.com/yourusername/face-recognition-attendance.git
-cd face-recognition-attendance
+>git clone https://github.com/yourusername/face-recognition-attendance.git
+>cd face-recognition-attendance
 
 2. **Install dependencies:**
+>pip install opencv-python numpy face_recognition
 
-pip install opencv-python numpy face_recognition
-    ⚠️ Windows users might also need:
-     pip install cmake dlib
+>⚠️ Windows users might also need:
+>pip install cmake dlib
 
 
-3. **
-> ### 🚨 Warning
-> Make sure your images are clear and front-facing.
+3. **Prepare folders**
+>student_images/       # Folder with training images
+>Attendance.csv        # CSV file to store attendance
+
+### Usage🚀
+
+### Detect Face in Image
+
+>import cv2
+>import face_recognition
+>img = face_recognition.load_image_file('elon_musk.jpg')
+>img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+>face_location = face_recognition.face_locations(img_rgb)[0]
+>cv2.rectangle(img, (face_location[3], face_location[0]), (face_location[1], face_location[2]), (255,0,255), 2)
+>cv2.imshow('Detected Face', img)
+>cv2.waitKey(0)
+>cv2.destroyAllWindows()
+
+### Train the Model
+
+# Load images from `student_images/` and encode faces:
+>encoded_faces = findEncodings(images)
+# The model can now recognise all faces in your dataset.
+
+### Real-Time Attendance
+>python face_recognition_attendance.py
+
+# Open your webcam, detect faces, and automatically log attendance in   `Attendance.csv`
+
+### Attendance Format📂
+| Name | Time | Date |
+| -------- | -------- | -------- |
+| Elon Musk | 10:15:23PM | 27-September-2025 |
+| John Doe | 11:05:10AM | 27-September-2025 |
+
+
+
+
+
 
