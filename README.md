@@ -70,7 +70,8 @@ A **Python-based Face Recognition Attendance System** using **OpenCV** and **fac
 | John Doe | 11:05:10AM | 27-September-2025 |
 
 ### Folder Structure 📂
-face-recognition-attendance/
+
+face-recognition-attendance/     
 │
 ├── student_images/                  
 ├── Attendance.csv                   
