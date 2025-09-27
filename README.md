@@ -43,13 +43,21 @@ A **Python-based Face Recognition Attendance System** using **OpenCV** and **fac
 ### Detect Face in Image
 
 >import cv2
+
 >import face_recognition
+
 >img = face_recognition.load_image_file('elon_musk.jpg')
+
 >img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+
 >face_location = face_recognition.face_locations(img_rgb)[0]
+
 >cv2.rectangle(img, (face_location[3], face_location[0]), (face_location[1], face_location[2]), (255,0,255), 2)
+
 >cv2.imshow('Detected Face', img)
+
 >cv2.waitKey(0)
+
 >cv2.destroyAllWindows()
 
 
