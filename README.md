@@ -80,18 +80,18 @@ A **Python-based Face Recognition Attendance System** using **OpenCV** and **fac
 
 ### Project Structure 📂
 
-face-recognition-attendance/
+[face-recognition-attendance/](FacerRecognition_attendence.py)
 
 │
 
 ├── [main.py](main.py)                       
-├── train.py                      
-├── face_utils.py                 
-├── attendance.py                 
-├── student_images/               
-├── Attendance.csv                
-├── research-paper.pdf            
-└── README.md                     
+├── [train.py](train.py)                      
+├── [face_utils.py](face_utils.py)                 
+├── [attendance.py](attendance.py)                 
+├── [student_images/](student_images)               
+├── [Attendance.csv](Attendance.csv)                
+├── [research-paper.pdf](Reference Paper.pdf)            
+└── [README.md](README.md)                     
                      
 
 ### Notes ⚡
