@@ -1,8 +1,10 @@
 # 🟢 Smart Face Recognition Attendance System
 
-[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![OpenCV](https://img.shields.io/badge/OpenCV-4.7-green?logo=opencv&logoColor=white)](https://opencv.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)  
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.7-green?logo=opencv&logoColor=white)](https://opencv.org/)  
+[![face_recognition](https://img.shields.io/badge/face__recognition-1.3-orange?logo=python&logoColor=white)](https://github.com/ageitgey/face_recognition)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 A **Python-based Face Recognition Attendance System** using **OpenCV** and **face_recognition**. Automatically detects faces from images or a webcam and logs attendance in a CSV file with **name, date, and time**.  
 
