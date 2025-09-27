@@ -1,5 +1,9 @@
 # 🟢 Smart Face Recognition Attendance System
 
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.7-green?logo=opencv&logoColor=white)](https://opencv.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+
 A **Python-based Face Recognition Attendance System** using **OpenCV** and **face_recognition**. Automatically detects faces from images or a webcam and logs attendance in a CSV file with **name, date, and time**.  
 
 ---
@@ -90,13 +94,8 @@ This project is licensed under MIT License
 
 ✅ This README includes everything — headings, code blocks, emojis, instructions, and folder structure.  
 
-If you want, I can make a **fancier version with badges, GIFs, and color styling** to make your GitHub project **more attractive to recruiters**.  
 
-Do you want me to do that?
-
-
-
-📄 **Research Paper:** I’ve added a research paper related to this project. [Click here to read it](research-paper.pdf) for anyone interested in learning more.
+📄 **Research Paper:** I’ve added a research paper related to this project—[Reference Paper.pdf](research-paper.pdf) for anyone interested in learning more.
 
 
 
