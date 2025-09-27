@@ -81,6 +81,7 @@ A **Python-based Face Recognition Attendance System** using **OpenCV** and **fac
 ### Project Structure 📂
 
 face-recognition-attendance/
+
 │
 
 ├── main.py                       
