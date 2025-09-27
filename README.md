@@ -23,7 +23,7 @@ A **Python-based Face Recognition Attendance System** using **OpenCV** and **fac
 
 1. **Clone the repository:**
 
->git clone https://github.com/yourusername/face-recognition-attendance.git
+>git clone [https://github.com/yourusername/face-recognition-attendance.git](https://github.com/Falcon37-tech/Smart-Face-Recognition-Attendance-System/tree/main)
 >cd face-recognition-attendance
 
 2. **Install dependencies:**
