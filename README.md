@@ -78,15 +78,19 @@ A **Python-based Face Recognition Attendance System** using **OpenCV** and **fac
 | Elon Musk | 10:15:23PM | 27-September-2025 |
 | John Doe | 11:05:10AM | 27-September-2025 |
 
-### Folder Structure 📂
+### Project Structure 📂
 
-face-recognition-attendance/  
+face-recognition-attendance/
 │
-
-├── student_images/                  
-├── Attendance.csv                   
-├── face_recognition_attendance.py   
-└── README.md                        
+├── main.py                       # Main script for webcam recognition & attendance
+├── train.py                      # Script to encode training images
+├── face_utils.py                 # All face-related helper functions
+├── attendance.py                 # Attendance logging functions
+├── student_images/               # Folder with training images
+├── Attendance.csv                # CSV file to store attendance
+├── research-paper.pdf            # Optional research paper
+└── README.md                     # Project documentation
+                     
 
 ### Notes ⚡
 
