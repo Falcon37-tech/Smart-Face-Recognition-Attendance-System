@@ -1,3 +1,4 @@
+#For VS Code
 
 import cv2
 import numpy as np
@@ -178,4 +179,5 @@ while True:
         break
 
 cap.release()
+
 cv2.destroyAllWindows()
