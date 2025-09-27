@@ -72,10 +72,14 @@ A **Python-based Face Recognition Attendance System** using **OpenCV** and **fac
 ### Folder Structure 📂
 face-recognition-attendance/
 │
-├── student_images/                  # Training images
-├── Attendance.csv                   # Attendance log
-├── face_recognition_attendance.py   # Main script
-└── README.md                        # Project documentation
+├── student_images/                  
+➔ Training images
+├── Attendance.csv                   
+➔ Attendance log
+├── face_recognition_attendance.py   
+➔ Main script
+└── README.md                        
+➔ Project documentation
 
 ### Notes ⚡
 
