@@ -33,8 +33,10 @@ A **Python-based Face Recognition Attendance System** using **OpenCV** and **fac
 >pip install cmake dlib
 
 3. **Prepare folders**
->student_images/       # Folder with training images
->Attendance.csv        # CSV file to store attendance
+>student_images/
+➔ Folder with training images
+>Attendance.csv
+➔ CSV file to store attendance
 
 ## Usage🚀
 
