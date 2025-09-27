@@ -53,14 +53,14 @@ A **Python-based Face Recognition Attendance System** using **OpenCV** and **fac
 
 ### Train the Model
 
-# Load images from `student_images/` and encode faces:
+## Load images from `student_images/` and encode faces:
 >encoded_faces = findEncodings(images)
-# The model can now recognise all faces in your dataset.
+## The model can now recognise all faces in your dataset.
 
 ### Real-Time Attendance
 >python face_recognition_attendance.py
 
-# Open your webcam, detect faces, and automatically log attendance in   `Attendance.csv`
+## Open your webcam, detect faces, and automatically log attendance in   `Attendance.csv`
 
 ### Attendance Format📂
 | Name | Time | Date |
@@ -87,7 +87,7 @@ Works best in good lighting
 Easily extendable to multiple users or integrated with a GUI
 
 
-📄 License
+## License📄 
 
 This project is licensed under MIT License
 
@@ -95,7 +95,8 @@ This project is licensed under MIT License
 ✅ This README includes everything — headings, code blocks, emojis, instructions, and folder structure.  
 
 
-📄 **Research Paper:** I’ve added a research paper related to this project—[Reference Paper.pdf](research-paper.pdf) for anyone interested in learning more.
+## **Research Paper:** 📄 
+>I’ve added a research paper related to this project—[Reference Paper.pdf](research-paper.pdf) for anyone interested in learning more.
 
 
 
