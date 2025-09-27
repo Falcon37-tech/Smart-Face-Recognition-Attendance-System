@@ -82,14 +82,14 @@ A **Python-based Face Recognition Attendance System** using **OpenCV** and **fac
 
 face-recognition-attendance/
 │
-├── main.py                       # Main script for webcam recognition & attendance
-├── train.py                      # Script to encode training images
-├── face_utils.py                 # All face-related helper functions
-├── attendance.py                 # Attendance logging functions
-├── student_images/               # Folder with training images
-├── Attendance.csv                # CSV file to store attendance
-├── research-paper.pdf            # Optional research paper
-└── README.md                     # Project documentation
+├── main.py                       
+├── train.py                      
+├── face_utils.py                 
+├── attendance.py                 
+├── student_images/               
+├── Attendance.csv                
+├── research-paper.pdf            
+└── README.md                     
                      
 
 ### Notes ⚡
