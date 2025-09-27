@@ -17,8 +17,19 @@ A **Python-based Face Recognition Attendance System** using **OpenCV** and **fac
 
 ## 🛠️ Installation
 
-1. **Clone the repository:**  
+1. **Clone the repository:**
 
-```bash
 git clone https://github.com/yourusername/face-recognition-attendance.git
 cd face-recognition-attendance
+
+2. **Install dependencies:**
+
+pip install opencv-python numpy face_recognition
+    ⚠️ Windows users might also need:
+     pip install cmake dlib
+
+
+3. **
+> ### 🚨 Warning
+> Make sure your images are clear and front-facing.
+
