@@ -92,7 +92,7 @@ A **Python-based Face Recognition Attendance System** using **OpenCV** and **fac
 ├── [attendance.py](attendance.py)                 
 ├── [student_images/](student_images)               
 ├── [Attendance.csv](Attendance.csv)                
-├── [Reference Paper.pdf](https://arxiv.org/abs/2212.13038)           
+├── [Reference Paper.pdf]([https://arxiv.org/abs/2212.13038](https://arxiv.org/abs/2212.13038))           
 └── [README.md](README.md)                     
                      
 
