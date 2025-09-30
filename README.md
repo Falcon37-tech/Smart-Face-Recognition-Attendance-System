@@ -85,7 +85,7 @@ A **Python-based Face Recognition Attendance System** using **OpenCV** and **fac
 [face-recognition-attendance/](FacerRecognition_attendence.py)
 
 │
-
+|
 ├── [main.py](main.py)                       
 ├── [train.py](train.py)                      
 ├── [face_utils.py](face_utils.py)                 
