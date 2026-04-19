@@ -74,7 +74,7 @@ import pickle
 path = 'E:\Projects\Face Recognition\student_images'
 
 '''
-For example: as you see in my student_images path, I have 6 persons. hence our model can recognize only these 6 persons.
+For example: as you see in my student_images path, I have 6 persons. hence our model can recognize only these 6 persons including myself.
 you can add more pictures in this directory for more people to be recognized.
 '''
 
